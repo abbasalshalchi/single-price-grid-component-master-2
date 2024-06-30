@@ -125,7 +125,7 @@ button:hover {
     font-style: normal;
 }
 
-@media (max-width:650px) {
+@media screen and (max-width:650px) {
     #bottom_block {
         flex-direction: column;
     }
