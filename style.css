@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    line-height: 1.2em;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: white;
+    font-size: 1.1em;
+}
+
+p {
+    color: white;
+    font-size: 1em;
+}
+
+#top_block h2 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 0.3em;
+}
+
+#top_block p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5em;
+}
+
+#top_block h1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 0.6em;
+}
+
+#bottom_right_block h2 {
+    margin-bottom: 1em;
+}
+
+#per_month {
+    color: white;
+    opacity: 50%;
+}
+
+#month_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0.9em 0 0.5em 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(204, 43%, 93%);
+}
+
+#main_block {
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    margin: 8% 14% 8% 14%;
+    border-radius: 2%;
+    overflow: hidden;
+    width: 72%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+#bottom_block {
+    display: flex;
+    flex-direction: row;
+}
+
+#top_block {
+    background-color: white;
+    padding: 6%;
+}
+
+#bottom_left_block {
+    background-color: hsl(179, 62%, 43%);
+    flex: 1;
+    padding: 6%;
+}
+
+#bottom_right_block {
+    background-color: hsl(179, 47%, 52%);
+    flex: 1;
+    padding: 6%;
+}
+
+button {
+    display: block;
+    margin: 2.5em auto auto auto;
+    height: 3.5em;
+    width: 100%;
+    border-radius: 0.4em;
+    border: 0em;
+    color: white;
+    background-color: hsl(71, 72%, 54%);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+button:hover {
+    background-color: hsl(71, 58%, 67%);
+    cursor: pointer;
+}
+
+.karla-regular {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karla-bold {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width:650px) {
+    #bottom_block {
+        flex-direction: column;
+    }
+}
